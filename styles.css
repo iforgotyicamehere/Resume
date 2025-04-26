@@ -1,12 +1,12 @@
 .head {
-  background-color: #e69090;
+  background-color: #e091917a;
   border: #2b61c4;
   font-family: Arial, sans-serif;
 }
 body {
   background-color: #065063;
   font-family: Arial, sans-serif;
-  color: #333;
+  color: #021118;
 }
 
 body,
@@ -27,6 +27,11 @@ h3 {
 .candidate-image {
   position: relative;
   display: block;
+  border: #e69090 10px solid;
+  border-block-start: #2b61c4;
+  border-end-end-radius: 50%;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
   width: 25%;
   height: 35%;
   padding: 10px 110px 10px 700px;
@@ -60,7 +65,7 @@ h3 {
   background-color: transparent;
 }
 #candidate-desired-role {
-  top: -50px;
+  top: -60px;
   position: fixed;
   display: absolute;
   text-align: center;
