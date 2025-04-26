@@ -1,0 +1,82 @@
+.head {
+  background-color: #e69090;
+  border: #2b61c4;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #065063;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+body,
+h1,
+h2,
+h3 {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  letter-spacing: 1.5px;
+}
+.candidate-image {
+  position: relative;
+  display: block;
+  width: 25%;
+  height: 35%;
+  padding: 10px 110px 10px 700px;
+}
+#skills,
+#hobbies,
+#contacts,
+#skills-list,
+#hobbies-list,
+#contacts-table {
+  color: #e69090;
+  position: relative;
+  text-align: center;
+  width: 25%;
+  height: 35%;
+  padding: 10px 110px 10px 100px;
+  background-color: #36055e;
+  border: 2px solid #e69090;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 44px 88px rgba(87, 205, 241, 0.1);
+  transition: transform 5s;
+}
+#candidate-name {
+  top: -1%;
+  position: fixed;
+  display: absolute;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 25%;
+  height: 35%;
+  background-color: transparent;
+}
+#candidate-desired-role {
+  top: -50px;
+  position: fixed;
+  display: absolute;
+  text-align: center;
+  width: 25%;
+  height: 35%;
+  background-color: transparent;
+  margin: auto;
+  padding: 114px 110px 10px 100px;
+}
+h1 {
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+}
+p {
+  color: #464141;
+  font-size: 1.2em;
+  font-weight: bold;
+}
