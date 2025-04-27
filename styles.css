@@ -125,8 +125,7 @@ p {
 }
 @media screen and (max-width: 600px) {
   #candidate-name,
-  .container,
-  .container-two {
+  .container       {
     font-size: 1.5em;
     padding: 20px;
     margin: 20px;
