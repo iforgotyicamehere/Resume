@@ -125,8 +125,8 @@ p {
 }
 @media screen and (max-width: 600px) {
 body {
-  background-image: auto;
-  background-size: cover;
+  background: url("./resume pic.jpeg") no-repeat center center fixed;
+  background-size: auto;
   background-repeat: no repeat;
   background-position: center;
 }
