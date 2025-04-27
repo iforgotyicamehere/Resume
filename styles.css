@@ -150,6 +150,7 @@ body {
   #about-me, 
   #contact-form,
   #candidate-desired-role,
+  #candidate-bio;
   h2,
   p {
 display: none;
