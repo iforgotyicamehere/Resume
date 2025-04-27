@@ -125,11 +125,12 @@ p {
 }
 @media screen and (max-width: 600px) {
 body {
-  background: url("./resume pic.jpeg") no-repeat fixed;
-  background-size: ;
-  background-repeat: no repeat;
-  background-position: center;
-  background-attatchment: fixed;
+  background: url("./resume pic.jpeg") no-repeat top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attatchment: scroll;
+  padding-top: 400px;
 }
   #candidate-name {
     font-size: 2rem;
