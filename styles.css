@@ -125,8 +125,7 @@ p {
 }
 @media screen and (max-width: 600px) {
   #candidate-name,
-  #candidate-desired-role,
-  .container       {
+  #candidate-desired-role       {
     font-size: 1.5em;
     text-align: center;
     padding: 20px;
