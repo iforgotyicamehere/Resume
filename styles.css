@@ -137,7 +137,7 @@ p {
   #contacts,
   #skills-list,
   #contacts-table {
-    width: 100%
+    width: 100%;
       height: auto;
     padding: 5px;
     margin: 5px auto;
