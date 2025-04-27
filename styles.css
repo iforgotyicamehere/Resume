@@ -125,7 +125,7 @@ p {
 }
 @media screen and (max-width: 600px) {
 body {
-  background-image: url('https://gifdb/images/high/man-quick-systems-coding-vgizdz76t5u709x.gif');
+  background-image: auto;
   background-size: cover;
   background-repeat: no repeat;
   background-position: center;
