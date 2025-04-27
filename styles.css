@@ -124,12 +124,17 @@ p {
   text-transform: none;
 }
 @media screen and (max-width: 600px) {
-  #candidate-name,
-  .container,
-  .container-two {
-    font-size: 1.5em;
-    padding: 20px;
-    margin: 20px;
+body {
+  background-image: url('https://gifdb/images/high/man-quick-systems-coding-vgizdz76t5u709x.gif');
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center;
+}
+  #candidate-name {
+    display: block;
+    width: 100%;
+    margin: 20px, 0;
+    font-size: 1.5em;    
   }
 
   #skills,
@@ -143,6 +148,13 @@ p {
     padding: 5px;
     margin: 5px;
   }
+  #about-me, 
+  contact-form,
+  .other-sections,
+  h2,
+  p {
+display: none;
+ }
 }
 #skills-list,
 #hobbies-list,
