@@ -106,3 +106,68 @@ p {
   font-size: 1.2em;
   font-weight: bold;
 }
+@media screen and (max-width: 600px) {
+  #candidate-name {
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+  }
+  #skills,
+  #hobbies,
+  #contacts,
+  #skills-list,
+  #hobbies-list,
+  #contacts-table {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+  }
+}
+#skills-list,
+#hobbies-list,
+#contacts-table {
+  border: 2px solid rgb(56, 147, 163);
+  border-radius: 25%;
+  border-style: double;
+}
+#skills,
+#hobbies,
+#contacts {
+  border-bottom-left-radius: -25%;
+  border-bottom-right-radius: -25%;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-style: double;
+  border-color: #f9ffc0;
+  border-width: 2px;
+  border-style: solid;
+}
+#skills-list > li,
+#hobbies-list > li,
+#contacts-table > li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+}
+#skills-list > li {
+  border: #aa7592 2px solid;
+  border-radius: 25%;
+  color: #f9ffc0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#hobbies-list > li {
+  border: #aa7592 2px solid;
+  border-radius: 25%;
+  color: #f9ffc0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#contacts-table > li {
+  border: #aa7592 2px solid;
+  border-radius: 25%;
+  color: #f9ffc0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
