@@ -20,7 +20,7 @@ body {
   background: url("./resume pic.jpeg") no-repeat center center fixed;
 }
 .container-two {
-  background: transparent;
+  background: rgba(146, 207, 218, 0.9);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -77,7 +77,7 @@ h3 {
   height: 35%;
   padding: 10px 110px 10px 100px;
   background-color: #36055e;
-  border: 2px solid transparent;
+  border: 99px solid transparent;
   border-radius: 5px;
   margin: auto;
   box-shadow: 0 44px 88px rgba(87, 205, 241, 0.1);
@@ -102,16 +102,27 @@ h1 {
   font-weight: bold;
 }
 p {
+  border-radius: 2.5rem;
+  border-start-end-radius: 1rem;
+  border-end-end-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-style: double;
+  box-sizing: border-box;
+  border: ridge #f9ffc0 12px;
+  border-color: #92dafc;
   color: #f9ffc0;
   font-size: 1.2em;
   font-weight: bold;
 }
 @media screen and (max-width: 600px) {
-  #candidate-name {
+  #candidate-name,
+  .container {
     font-size: 1.5em;
     padding: 10px;
     margin: 10px;
   }
+
   #skills,
   #hobbies,
   #contacts,
