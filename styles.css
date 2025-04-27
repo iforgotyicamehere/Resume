@@ -145,6 +145,7 @@ body {
   #skills-list,
   #hobbies-list,
   #contacts-table {
+    display: relative;
     width: 100%;
     height: auto;
     padding: 5px;
