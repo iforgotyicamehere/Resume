@@ -128,9 +128,27 @@ p {
   #candidate-desired-role
   .container       {
     font-size: 1.5em;
+    text-align: center;
     padding: 20px;
-    margin: 20px;
+    margin: 0 auto;
   }
+  #skills,
+  #hobbies,
+  #contacts,
+  #skills-list,
+  #contacts-table {
+    width: 100%
+      height: auto;
+    padding: 5px;
+    margin: 5px auto;
+  }
+  img {
+    width:80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+}
   
 
   #skills,
