@@ -184,3 +184,5 @@ p {
   font-size: 1.2em;
   font-weight: bold;
 }
+section, form, .container {
+  padding 20px;
