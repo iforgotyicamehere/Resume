@@ -1,13 +1,11 @@
 #head {
   background-color: #f176767a;
-  border: #2b61c4;
+  border: #5e6269;
   border-radius: 50%;
   font-family: Arial, sans-serif;
 }
 body {
-  background-color: #065063;
-  font-family: Arial, sans-serif;
-  color: #619db9;
+  color: #c39ddd;
 }
 .container {
   position: fixed;
@@ -34,13 +32,12 @@ body,
 h1,
 h2,
 h3 {
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   padding: 15px;
   letter-spacing: 1.5px;
@@ -98,10 +95,17 @@ h3 {
   justify-content: center;
   margin: 214px 110px 10px 700px;
 }
+#candidate-bio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  text-transform: none;
+}
 h1 {
-  color: rgb(153, 216, 241);
+  color: rgb(196, 189, 228);
   font-size: 2em;
-  font-weight: bold;
+  font-family: "Poppin" sans-serif;
+  font-weight: NONE;
 }
 p {
   border-radius: 2.5rem;
@@ -113,13 +117,16 @@ p {
   box-sizing: border-box;
   border: ridge #f9ffc0 12px;
   border-color: #92dafc;
-  color: #f9ffc0;
+  color: #4f5045;
   font-size: 1.2em;
-  font-weight: bold;
+  font-family: "Poppin" sans-serif;
+  font-weight: normal;
+  text-transform: none;
 }
 @media screen and (max-width: 600px) {
   #candidate-name,
-  .container {
+  .container,
+  .container-two {
     font-size: 1.5em;
     padding: 20px;
     margin: 20px;
@@ -164,25 +171,29 @@ p {
   margin: 5px;
 }
 #skills-list > li {
-  border: #aa7592 2px solid;
+  border: #e6238e 2px solid;
   border-radius: 25%;
-  color: #f9ffc0;
+  color: #ebb1f3;
   font-size: 1.2em;
   font-weight: bold;
 }
 #hobbies-list > li {
   border: #aa7592 2px solid;
   border-radius: 25%;
-  color: #f9ffc0;
+  color: #f7a9dd;
   font-size: 1.2em;
   font-weight: bold;
 }
 #contacts-table > li {
   border: #aa7592 2px solid;
   border-radius: 25%;
-  color: #f9ffc0;
+  color: #e98ff5;
   font-size: 1.2em;
   font-weight: bold;
 }
-section, form, .container {
-  padding 20px;
+section,
+form,
+.container {
+  padding: 20px;
+  text-decoration: none;
+}
