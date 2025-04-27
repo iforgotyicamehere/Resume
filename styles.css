@@ -126,14 +126,17 @@ p {
 @media screen and (max-width: 600px) {
 body {
   background: url("./resume pic.jpeg") no-repeat center center fixed;
-  background-size: auto;
+  background-size: 70%;
   background-repeat: no repeat;
   background-position: center;
 }
   #candidate-name {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
     display: block;
-    width: 100%;
-    margin: 20px, 0;
+    width: 85%;
+    margin: 20px, auto;
     font-size: 1.5em;    
   }
   #skills,
