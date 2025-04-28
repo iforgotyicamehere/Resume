@@ -225,7 +225,7 @@ font-size: 16px;
 border: none;
 border-radius: 15px;
 cursor: pointer;
-transition: background-color 5sec ease;
+transition: background-color 0.9s ease;
 }
 .button:hover }
 background-color: purple;
